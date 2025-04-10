@@ -1,0 +1,110 @@
+
+.projects-section {
+    color: white;
+    background-color: #263C28;
+    
+}
+
+
+
+.projects-container {
+    padding: 139px 0 160px;
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+.projects-subtitle {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.projects-title {
+    margin-bottom: 100px;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 56px;
+}
+
+
+.project-card {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease-in-out;
+    background-size: cover;
+    padding: 264px 25px 20px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.project-link {
+    display: block;
+    text-decoration: none;
+}
+
+.project-link:focus {
+    border-radius: 10px;
+    outline: 1px solid rgb(197, 141, 33);
+}
+
+.project-category {
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: rgb(247, 195, 95);
+    font-weight: 400;
+    
+}
+
+.project-name {
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    max-width: 133px;
+    
+}
+
+.project-icon {
+    position: absolute;
+    background: url(../icons/strelka.svg) center / contain no-repeat;
+    right: 25px;
+    bottom: 41px;
+    width: 24px;
+    height: 24px;
+
+}
+
+
+.project-card:hover {
+    transform: translateY(-25px);
+}
+
+.project-card:active {
+    transform: scale(0.9);
+}
+
+
+.project-card-1 {
+    background-image: url('../images/tractor.jpeg');
+}
+
+.project-card-2 {
+    background-image: url('../images/person.jpeg');
+}
+
+.project-card-3 {
+    background-image: url('../images/fruits.jpeg');
+}
+
+.project-card-4 {
+    background-image: url('../images/technic.jpeg');
+}
